@@ -1,0 +1,60 @@
+2026-11-05 C o-que-a-smartcontax-faz | A maioria dos donos de clínica só fala com o contador quando chega a guia para pagar.
+2026-11-06 C 2027-o-que-muda | Em 2026 a Reforma Tributária esteve em fase de teste. Em 2027 ela começa a pesar no caixa.
+2026-11-07 I cbs-substitui-pis-cofins | 2027 é o ano em que a CBS substitui PIS e Cofins.
+2026-11-09 C pro-labore-x-lucros | Na clínica em que os sócios também atendem, a forma de retirar dinheiro precisa de atenção
+2026-11-10 C conta-pf-pj-misturada | Receber o cartão da clínica na conta pessoal ou pagar a conta de casa pela clínica parece 
+2026-11-11 I mito-mei-dentista | Essa dúvida aparece com frequência, e a resposta é não.
+2026-11-12 C fator-r | Duas clínicas com o mesmo faturamento podem pagar alíquotas muito diferentes no Simples Na
+2026-11-13 C equiparacao-hospitalar | No Lucro Presumido, a maioria dos serviços usa base de 32% para calcular IRPJ e CSLL. Serv
+2026-11-16 C 13-salario-guia | O 13º salário da equipe da clínica tem duas datas: 1ª parcela até 30 de novembro e 2ª parc
+2026-11-17 C dividendos-2026 | Desde 2026, a distribuição de lucros tem regras novas de Imposto de Renda, trazidas pela L
+2026-11-18 I alerta-13-primeira | Faltam 12 dias para o prazo da 1ª parcela do 13º salário: 30 de novembro.
+2026-11-19 C custo-hora-clinica | Agenda cheia não garante lucro. Se o preço do procedimento não cobre o custo da hora clíni
+2026-11-20 I feriado-trabalho-em-dobro | Hoje é feriado nacional da Consciência Negra.
+2026-11-21 C glosa-convenio | A glosa é um dos vazamentos de receita mais comuns em clínicas odontológicas que atendem c
+2026-11-23 C credito-ibs-cbs | Uma das mudanças mais relevantes da Reforma Tributária para a clínica é a não cumulativida
+2026-11-24 C sinais-regime-errado | Regime tributário escolhido na abertura da clínica e nunca revisado é um dos erros mais co
+2026-11-25 I simples-continua | O Simples Nacional não acaba com a Reforma Tributária.
+2026-11-26 C simples-das-ou-por-fora | Com a Reforma Tributária, a empresa do Simples Nacional ganha uma escolha nova: manter IBS
+2026-11-27 C repasse-dentista | O repasse ao dentista parceiro é rotina em quase toda clínica, e o formato escolhido muda 
+2026-11-30 I alerta-13-hoje | Hoje, 30 de novembro, é o último dia para pagar a 1ª parcela do 13º salário.
+2026-12-01 C checklist-dezembro | Dezembro é o mês que define como a clínica começa o ano seguinte.
+2026-12-02 C saude-reducao-60 | A Reforma Tributária prevê redução de 60% nas alíquotas de IBS e CBS para serviços de saúd
+2026-12-03 C confraternizacao-brindes | Confraternização da equipe e brindes para pacientes são despesas comuns em dezembro, e o t
+2026-12-04 C erros-nota-servico | A nota fiscal de serviço é a principal prova da receita da sua empresa, e pequenos erros n
+2026-12-07 C simples-x-presumido-clinica | Simples ou Presumido? A resposta muda de clínica para clínica.
+2026-12-08 C ferias-coletivas | Se a sua empresa vai fechar entre o Natal e o Ano Novo, as férias coletivas precisam segui
+2026-12-09 I alerta-13-segunda | A 2ª parcela do 13º salário tem prazo legal em 20 de dezembro. Em 2026, essa data cai em u
+2026-12-10 C split-payment | O split payment é um dos pontos da Reforma Tributária com maior impacto no caixa da clínic
+2026-12-11 I faturamento-2026-define-2027 | O planejamento tributário da clínica para 2027 começa pelos números de 2026.
+2026-12-14 C implante-orto-preco | Implante e ortodontia são tratamentos de ticket alto, mas também os que mais escondem cust
+2026-12-15 C carga-efetiva | Você sabe qual percentual do faturamento da sua clínica foi para impostos em 2026?
+2026-12-16 C sistema-notas-2027 | Em 2027 a CBS passa a ser cobrada de verdade, e a nota fiscal da clínica é onde tudo começ
+2026-12-17 C dentista-pf-x-pj | Atender como pessoa física ou abrir empresa? Para o dentista, a resposta depende de número
+2026-12-18 I alerta-13-hoje-segunda | Hoje é o último dia útil para pagar a 2ª parcela do 13º salário.
+2026-12-21 C irpf-socio-organizar | A declaração de Imposto de Renda de 2027 se refere ao ano de 2026, e o dentista sócio que 
+2026-12-22 C 3-perguntas-2027 | Antes de montar qualquer planilha para 2027, responda três perguntas com o seu sócio.
+2026-12-23 I das-dezembro-janeiro | Os impostos sobre o faturamento de dezembro da clínica vencem em janeiro.
+2026-12-28 C cronograma-reforma | A Reforma Tributária tem uma transição longa, e saber em que etapa estamos evita decisões 
+2026-12-29 C retrospectiva-2026 | 2026 foi um ano de mudanças importantes para empresas e sócios.
+2026-12-30 C equipamento-clinica | Muitas clínicas planejam renovar equipamentos no início do ano. Antes de comprar, vale faz
+2027-01-04 I 2027-comecou-cbs | Desde 1º de janeiro, a Reforma Tributária pesa no caixa das empresas.
+2027-01-05 C decisoes-janeiro | Janeiro concentra decisões que definem o resultado da clínica no ano inteiro.
+2027-01-06 I cbs-clinica-presumido | Para a clínica odontológica no Lucro Presumido, 2027 traz uma mudança direta: PIS e Cofins
+2027-01-07 C opcao-simples-setembro | Muita gente ainda acredita que a opção pelo Simples Nacional é feita em janeiro. Não é mai
+2027-01-08 C orcamento-anual | Um orçamento simples já muda a forma como a clínica toma decisões ao longo do ano.
+2027-01-11 C 4-numeros-semana | Você não precisa de um relatório de 20 páginas para saber como a clínica está. Quatro núme
+2027-01-12 I checklist-documentos-mes | A qualidade da contabilidade da clínica depende da qualidade da informação que chega até e
+2027-01-13 C taxas-cartao | A taxa de cartão parece pequena porque é cobrada em percentual. Somada ao longo do ano, so
+2027-01-14 C margem-contribuicao | O serviço mais caro nem sempre é o que mais contribui para o lucro.
+2027-01-15 I frase-imposto-sem-surpresa | Planejamento tributário não é truque para pagar menos.
+2027-01-18 C kpis-clinica | Faturamento alto não garante uma clínica saudável. Cinco indicadores mostram muito mais.
+2027-01-19 I o-que-e-dre | DRE é a Demonstração do Resultado do Exercício.
+2027-01-20 C dentista-clt-autonomo-socio | Contratar um dentista como CLT, autônomo ou sócio não é só uma questão de custo.
+2027-01-21 I mito-cnpj-sempre-paga-menos | Abrir empresa costuma reduzir o imposto do profissional liberal, mas não é regra para todo
+2027-01-22 C saida-de-socio | A saída de um sócio é um dos momentos mais delicados de uma clínica, e o que não é formali
+2027-01-25 I o-que-e-pro-labore | Pró-labore é a remuneração do sócio pelo trabalho que ele exerce na empresa.
+2027-01-26 I frase-contador-decidir | A guia de imposto é a parte mais visível da contabilidade, mas não é a mais importante.
+2027-01-27 I institucional-onde-voce-esta | Na Smartcontax, a contabilidade é 100% digital e focada em clínicas odontológicas e da áre
+2027-01-28 C como-trabalhamos-raio-x | Antes de qualquer proposta, a Smartcontax começa pelos números.
+2027-01-29 I presumido-ou-real-primeiro-pagamento | Para empresas fora do Simples Nacional, a escolha entre Lucro Presumido e Lucro Real não é

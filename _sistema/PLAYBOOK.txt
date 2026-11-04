@@ -1,0 +1,63 @@
+PLAYBOOK MENSAL DE CONTEÚDO @smartcontax (Instagram)
+=====================================================
+
+1. CONTEXTO
+- Perfil da EMPRESA @smartcontax (Smartcontax Contabilidade & Consultoria, Brasília-DF, contabilidade 100% digital).
+  Nunca o perfil pessoal @josegabriel.contador.
+- Público: donos e sócios de clínicas, foco principal em clínicas ODONTOLÓGICAS. Também clínicas médicas,
+  veterinárias e da saúde em geral. Meta de mix: pelo menos 70% dos posts falando direto com clínica/odonto.
+- Metricool: marca da empresa, blogId 7885326, rede instagram, timezone America/Sao_Paulo.
+  Plano gratuito: no máximo 20 posts publicados por mês. Postar só de segunda a sexta, sem feriados nacionais.
+
+2. FORMATO VISUAL (render.py já implementa; não alterar a identidade)
+- 1080x1350, fontes Lato, paleta NAVY #0D1733, ORANGE #D4600A, INST #1B2F6E, GOLD #C8930A, logo oficial em brand/.
+- Nada de estilo "tweet". Carrosséis (capa C(), 3 a 5 slides S(), CTA A()) e imagens únicas img().
+- Mix sugerido por mês: ~13 carrosséis e ~7 imagens únicas. Destaques no texto com *asterisco*.
+- Ver exemplos completos em _sistema/exemplos/posts6.py (versão clínicas) e posts1..5.py.
+
+3. TEXTO
+- Português do Brasil, direto, profissional, sem clichês motivacionais.
+- PROIBIDO travessão (— ou –). Usar vírgula, ponto ou dois-pontos. build_mes.py bloqueia.
+- Legenda: gancho na 1ª linha, 2 a 4 parágrafos curtos, CTA (salvar/compartilhar/link da bio), 4 a 6 hashtags
+  (sempre #contabilidadeparadentistas e #clinicaodontologica quando o post for de clínica).
+- Não prometer serviço que a Smartcontax não ofereça. Não citar valores de honorários.
+- Não repetir temas de historico_posts.txt dos últimos 3 meses; pode aprofundar ângulos novos.
+
+4. VALIDAÇÃO TRIPLA (obrigatória, nesta ordem)
+ V1. Pesquisa: toda afirmação técnica (alíquota, prazo, percentual, lei, obrigação, data) precisa de fonte
+     PRIMÁRIA consultada na hora: planalto.gov.br, gov.br/receitafederal, normas.receita.fazenda.gov.br,
+     www8.receita.fazenda.gov.br/simplesnacional, CFO/CRO, ANS, legislação do DF (sinj.df.gov.br), DOU.
+     Registrar fonte e trecho em validacao.txt da pasta do mês.
+ V2. Revisor independente nº 1 (subagente sem contexto da criação): recebe só os textos finais e verifica
+     cada afirmação contra fonte primária. Marca: correto / desatualizado / impreciso / sem fonte.
+ V3. Revisor independente nº 2 (outro subagente): papel adversarial. Procura regra que mudou recentemente
+     (lei nova, resolução CGSN, IN RFB, prorrogação), exagero ("começa", "acaba", "obrigatório"),
+     generalização indevida (vale para Simples x Presumido x Real?), data no passado e contas erradas.
+ Regra de decisão: qualquer item não confirmado por fonte primária nas duas revisões é REESCRITO de forma
+ genérica ou o post é TROCADO. Na dúvida, não publica a afirmação.
+
+5. FATOS JÁ VERIFICADOS (rechecar a vigência antes de usar)
+- Opção pelo Simples Nacional: passou a ser em SETEMBRO do ano anterior (LC 214/2025; Res. CGSN 190/2026).
+  Não usar a regra antiga de janeiro.
+- Opção IBS/CBS "por fora" no Simples: semestral; setembro (cancelável até 30/11) e 1 a 31 de março para o 2º semestre.
+- Lei 15.270/2025: retenção de 10% de IR sobre dividendos acima de R$ 50 mil/mês por PF na mesma empresa;
+  tributação mínima no IRPF acima de R$ 600 mil/ano; regra de transição para lucros apurados até 2025.
+- Odontologia: Anexo III do Simples; na Reforma, serviços de saúde com redução de 60% (LC 214/2025).
+  Veterinária NÃO tem a mesma redução.
+- Presumido: opção manifestada com o pagamento da 1ª quota/quota única do 1º período (Lei 9.430/1996).
+- Ainda pendentes de definição (não afirmar números): alíquota de referência final da CBS/IBS e regras do Imposto Seletivo.
+
+6. HORÁRIOS
+- Usar o desempenho real (getAnalyticsDataByMetrics / getBestTimeToPostByNetwork) para escolher horários.
+  Base inicial: 11:45. Testes de novembro/2026: 07:45, 11:45, 18:45.
+
+7. FLUXO TÉCNICO
+ a) git clone do repo (add_repo com acesso push), criar _sistema/meses/posts_AAAA_MM.py usando helpers.
+ b) python3 _sistema/build_mes.py posts_AAAA_MM <N>_<Mes>_<Ano>   (ex.: 4_Fevereiro_2027)
+ c) Olhar as imagens renderizadas (Read nos PNG) e corrigir quebras/estouro de texto.
+ d) git add/commit/push. Pegar o SHA do commit. URL das mídias:
+    https://raw.githubusercontent.com/josegabrielcontador/smartcontax-posts/<SHA>/<pasta>/<arquivo>.png
+    (sempre fixar o SHA, nunca "main", para evitar cache).
+ e) Antes de criar, getScheduledPosts do mês para não duplicar. Criar cada post com createScheduledPost
+    (providers instagram, instagramData type POST, autoPublish true).
+ f) Gerar Calendario_e_Legendas.docx do mês, relatório de desempenho e validacao.txt; enviar ao usuário.
